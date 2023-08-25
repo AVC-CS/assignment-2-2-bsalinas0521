@@ -17,7 +17,7 @@ fahrenheit = (celsius*(9/5)) +32
     ########################################
 """
 
-print(celsius, fahrenheit)
+print(celsius,(f'\t{fahrenheit:.2f}'))
 
 
 if __name__ == '__main__':
