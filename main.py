@@ -7,7 +7,7 @@ def main():
     """
 fahrenheit = 0.0
 
-celsius = int(input("Enter the degrees in celsius."))
+celsius = float(input("Enter the degrees in celsius."))
 
 fahrenheit = (celsius*(9/5)) +32
 
@@ -17,7 +17,7 @@ fahrenheit = (celsius*(9/5)) +32
     ########################################
 """
 
-print(celsius,(f'\t{fahrenheit:.2f}'))
+print(f'{celsius:.2f}',(f'{fahrenheit:.2f}'))
 
 
 if __name__ == '__main__':
